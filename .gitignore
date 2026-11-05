@@ -1,5 +1,4 @@
 *.env
-.env*
 !.env.template
 !.env.example
 !.env.local-dev.template
@@ -47,7 +46,6 @@ dist/
 .swiftpm/
 
 # VS Code
-.vscode/*
 
 # Android specific
 **/android/**/build/
@@ -247,7 +245,6 @@ app/macos/Config/Prod/GoogleService-Info.plist
 app/.metadata
 app/macos/DerivedData/
 app/macos/Runner/LocalDev.entitlements
-.env.local
 .backups/
 
 # Generated browser snapshots (contain PII)
@@ -312,3 +309,4 @@ pnpm-workspace.yaml
 !.agent-artifacts/ui-evidence/
 .agent-artifacts/ui-evidence/*
 !.agent-artifacts/ui-evidence/lane-web-batch/
+config.bat
